@@ -4,56 +4,80 @@
     <link rel="stylesheet" href="CSS/style.css">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Un titre</title>
+    <title>Contact & Avis - Chocolaterie Prints</title>
   </head>
   <body>
-   <ul>
-     <li><a href="index.html">Accueil</a></li>
-     <li><a href="produits.html">Produits</a></li>
-     <li><a class="active" href="contact.html">Contact</a></li>
-     <li><a href="entreprise.html">Entreprise</a></li>
-   </ul>
+   <nav>
+       <ul>
+         <li><a href="index.html">Accueil</a></li>
+         <li><a href="produits.html">Produits</a></li>
+         <li><a class="active" href="contact.html">Contact</a></li>
+         <li><a href="entreprise.html">Entreprise</a></li>
+       </ul>
+   </nav>
+   <main>
+        <section id="coordonnees">
+            <h2>Nos Coordonnées</h2>
+            <p>Nom : **ChocoPrint**<br>
+               Adresse : **17, rue des lilas - 79000 NIORT**<br>
+               Téléphone : **0504030201**<br>
+               Courriel : **chocoprint@email.com**<br>
+               Réseaux sociaux : <a href="https://www.facebook.com/ABChocolat">Facebook</a></p>
+             <div class="image-container">
+                 <img src="image/labo3.jpg" alt ="labo3">
+             </div>
+        </section>
 
-    <p>Nom : ChocoPrint<br>
-       Adresse : 17, rue des lilas - 79000 NIORT<br>
-       Téléphone : 0504030201<br>
-       Courriel : chocoprint@email.com<br>
-       Réseaux sociaux : https://www.facebook.com/ABChocolat</p>
+        <section id="formulaire-contact">
+            <form action="#" method="post">
+                <legend>Formulaire de Contact</legend>
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" size="40" required><br />
+                
+                <label for="email">E-mail :</label><br>
+                <input type="email" id="email" name="email" size="40" required><br />
+                
+                <label for="tel">Numéro de Téléphone :</label><br>
+                <input type="tel" id="tel" name="tel" size="40"><br />
+                
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="5"></textarea><br />
+                
+                <button type="submit">Envoyer le message</button>
+            </form>
+        </section>
 
-<legend>Informations</legend>
-Nom :<br>
-<input type="text" size="20"><br />
-E-mail :<br>
-<input type="text" size="20"><br />
-Numéro de Téléphone :<br>
-<input type="text" size="20"><br />
-Message :<br>
-<input type="text" size="20"><br />
+        <section id="avis-clients">
+            <h2>Avis Clients</h2>
+            <h3>Ces retours client illustrent la satisfaction des clients quant à la qualité, à la personnalisation et à l'expérience offertes par ChocoPrint.</h3>
+            
+            <article>
+                <h4>Laura, cliente régulière :</h4>
+                <p>"Les figurines personnalisées de ChocoPrint sont toujours un succès pour mes événements..."</p>
+            </article>
+            <article>
+                <h4>Paul, collectionneur de figurines :</h4>
+                <p>"La collection édition limitée de ChocoPrint est tout simplement remarquable..."</p>
+            </article>
+            <article>
+                <h4>Sophie, mariée satisfaite :</h4>
+                <p>"Nous avons choisi ChocoPrint pour nos cadeaux de mariage..."</p>
+            </article>
+            <article>
+                <h4>Franck, responsable d'événement d'entreprise :</h4>
+                <p>"ChocoPrint a vraiment su capturer l'essence de notre entreprise..."</p>
+            </article>
+            <article>
+                <h4>Clara, participante à un atelier :</h4>
+                <p>"J'ai participé à l'atelier de création de figurines en chocolat..."</p>
+            </article>
+        </section>
+    </main>
 
-
-</select>
-
-    <h2>Avis</h2>
-
-    <h3>Ces retours client illustrent la satisfaction des clients quant à la qualité, à la personnalisation et à l'expérience offertes par ChocoPrint, que ce soit pour des événements personnels, des collections de figurines ou des initiatives d'entreprise.</h3>
-  
-    <p>Laura, cliente régulière :<br>
-    "Les figurines personnalisées de ChocoPrint sont toujours un succès pour mes événements. Elles ajoutent une touche spéciale et tout le monde adore le détail et la qualité du chocolat."</p>
- 
-    <p>Paul, collectionneur de figurines :<br>
-    "La collection édition limitée de ChocoPrint est tout simplement remarquable. Les détails sur les figurines sont incroyables, c'est de l'art en chocolat pur. Chaque pièce est unique et devient un élément inestimable de ma collection."</p>
-  
-    <p>Sophie, mariée satisfaite :<br>
-    "Nous avons choisi ChocoPrint pour nos cadeaux de mariage et c'était une décision parfaite. Les figurines personnalisées étaient adorables et nos invités étaient ravis de recevoir quelque chose d'aussi unique et délicieux en même temps."</p>
- 
-    <p>Franck, responsable d'événement d'entreprise :<br>
-    "ChocoPrint a vraiment su capturer l'essence de notre entreprise avec les chocolats personnalisés pour notre dernier événement. C'était un excellent moyen de promouvoir notre marque tout en offrant quelque chose de délicieux à nos invités."</p>
-   
-    <p>Clara, participante à un atelier :<br>
-    "J'ai participé à l'atelier de création de figurines en chocolat et j'ai adoré chaque instant. C'était amusant, éducatif et je suis repartie avec ma propre création en chocolat ! Une expérience vraiment mémorable."</p>
- 
-  </body>
-</html>
-
+    <footer>
+        <p>&copy; 2025 ChocoPrint. Tous droits réservés.</p>
+        <p>Adresse e-mail : <a href="mailto:chocoprint@email.com">chocoprint@email.com</a></p>
+        <p>Téléphone : 0504030201</p>
+    </footer>
   </body>
 </html>
