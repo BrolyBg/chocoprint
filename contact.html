@@ -72,6 +72,25 @@
                 <p>"J'ai participé à l'atelier de création de figurines en chocolat..."</p>
             </article>
         </section>
+
+     <section class="container my-5">
+         <h3>S'inscrire à la Newsletter</h3>
+         <form id="newsletterForm">
+             <div class="mb-3">
+                 <label for="Pseudo" class="form-label">Pseudo (8 caractères min.)</label>
+                 <input type="text" class="form-control" id="Pseudo" required>
+                 <span id="statutNom">...</span>
+             </div>
+             <div class="mb-3">
+                 <label for="Email" class="form-label">Adresse électronique (minuscules, @ et .)</label>
+                 <input type="Email" class="form-control" id="Email" required>
+                 <span id="statutEmail">...</span>
+             </div>
+             <button type="submit" class="btn btn-primary">S'inscrire</button>
+             <div id="msgErreur" class="mt-2 text-danger"></div>
+         </form>
+     </section>
+
     </main>
 
     <footer>
