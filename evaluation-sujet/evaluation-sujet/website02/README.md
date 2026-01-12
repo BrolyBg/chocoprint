@@ -15,4 +15,4 @@ Une fois le travail terminé, vous compléterez le compte-rendu d'intervention c
 
 ## Compte-rendu de l'intervention
 
-...TODO...
+j'ai refait toute l'indentation et corrigé les erreurs 
