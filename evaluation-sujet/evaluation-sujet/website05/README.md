@@ -17,4 +17,4 @@ Une fois le travail terminé, vous compléterez le compte-rendu d'intervention c
 
 ## Compte-rendu de l'intervention
 
-...TODO...
+j'ai corrigé les erreur dans le code css et j'ai modifié cette ligne (<link rel="stylesheet" href="assets/css/superstyle.css">) dans le code html car elle etait fausse
