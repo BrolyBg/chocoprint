@@ -1,0 +1,22 @@
+name: My website deployment
+
+on: workflow_dispatch
+      
+jobs:
+  check-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name : Deploy code to VPS
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.SFTPGO_HOST }}
+          port: ${{ secrets.SFTPGO_PORT }}
+          username: ${{ secrets.SFTPGO_USERNAME }}
+          password: ${{ secrets.SFTPGO_PASSWORD }}
+          local_path: './public_html/*'
+          remote_path: './'
+          sftp_only: true
