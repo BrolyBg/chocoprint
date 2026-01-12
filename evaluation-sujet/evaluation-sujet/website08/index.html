@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website08</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/utils.js"></script>
+  </head>
+  <body>
+    <h1 id="title">Custom greetings</h1>  
+    <div id="saisie"> 
+      <div>       
+        <label>Language</label>
+        <select id="language">
+          <option value="EN">I am english</option>
+          <option value="FR">Je suis français</option>
+        </select> 
+      </div>
+      <div>           
+        <label>Login</label>
+        <input type="text" id="login" />
+      </div>
+      <div>
+        <button onclick="generate()">Generate</button>
+      </div>
+    </div>
+    <div id="response">...</div>
+  </body>
+</html>

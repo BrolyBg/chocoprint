@@ -1,0 +1,35 @@
+/* Mes titres de niveau 1 sont en rouge */
+h1 {
+color: #ff0000;
+}
+
+/* Mes titres de niveau 2 sont en bleu */
+h2 {
+color: #0000ff;
+}
+
+/* Mon menu */
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+
+    
+}

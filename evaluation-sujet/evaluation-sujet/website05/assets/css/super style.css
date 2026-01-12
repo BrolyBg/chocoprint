@@ -1,0 +1,31 @@
+/* Mes titres de niveau 1 sont en rouge */
+h1 {color-texte: #ff0000;}
+
+/* Mes titres de niveau 2 sont en bleu */
+h2 {color-texte: #0000ff;}
+
+/* Pour surligner des lignes de la liste des services */
+#surligne {backgroundcolor: yellow}
+
+/* Pour colorier la ligne d'en-tête du tableau */
+.tamise {background-color= orange;}
+
+.cadre {border: 1px solid #A0A0A0;background-color: #F0F0F0;}
+
+ul {list-style-image: url("assets/img/rocket.svg");}
+
+/* Pour supprimer les doubles lignes dans le tableau */
+table {
+    border-collapse: collapse;
+}
+
+/* Les bordures du tableau */
+table, th, tr, td {
+    border-width: 1px;
+    border-color: #A0A0A0;
+    border-style: solid;
+}
+
+th, td {
+    padding: 10px;
+}
